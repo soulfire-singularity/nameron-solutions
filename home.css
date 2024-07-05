@@ -1,0 +1,56 @@
+/* Basic Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand, .nav-link {
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff9800 !important;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+}
+
+.service-box {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    background-color: #f7f7f7;
+}
+
+.icon-lg {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ff9800;
+}
+
+footer {
+    background-color: #222;
+}
+
+footer p {
+    margin: 0;
+}
