@@ -11,7 +11,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.navbar-toggler-icon:focus{
+.navbar-toggler-icon:focus, .navbar-toggler:focus{
 outline-color: #0066ff !important;
 }
 
