@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-toggler-icon:focus{
-border: solid #0066ff 3px !important;
+outline-color: #0066ff !important;
 }
 
 .navbar-nav .nav-link:hover {
