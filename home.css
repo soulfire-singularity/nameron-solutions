@@ -48,6 +48,28 @@ body {
     color: #ff9800;
 }
 
+.pricing-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 20px 0;
+}
+
+.pricing-box:hover {
+    transform: translateY(-10px);
+    background-color: #f7f7f7;
+}
+
+.pricing-box h3 {
+    margin-bottom: 20px;
+}
+
+.pricing-box .price {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #222;
 }
