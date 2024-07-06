@@ -33,12 +33,13 @@ body {
     padding: 20px;
     border: 3px solid #0066ff;
     border-radius: 10px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease box-shadow 0.3s ease;
 }
 
 .service-box:hover {
     transform: translateY(-10px);
     background-color: #f7f7f7;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .icon-lg {
