@@ -1,6 +1,9 @@
 /* Basic Styles */
-body {
+body, html{
     font-family: 'Arial', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    width: 100%; /* Ensure the body and html take full width */
+    scroll-behavior: smooth;
 }
 
 .navbar {
